@@ -10,12 +10,14 @@
 </template>
 
 <script>
-import Skills from './components/Skills.vue'
+import Skills from './components/Skills.vue';
+import About from './components/About.vue';
 
 export default {
   name: 'app',
   components: {
-    Skills
+    "/": Skills,
+    "/about": About
   }
 }
 </script>

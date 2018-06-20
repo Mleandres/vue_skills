@@ -35,13 +35,9 @@
 
 
 <script>
-import Skill from "./Skill.vue";
 
 export default {
   name: 'Skills',
-  components: {
-    'skill': Skill
-  },
   data() {
     return {
       delColor: 'grey',
